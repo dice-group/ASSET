@@ -1,0 +1,4 @@
+Due to the limit of github uploads. We share the links of our preprocessed data. 
+The folder includes the pre-trained models (TransE, DistMult and ConnectE) for both datasets FB15K-ET and YAGO43k-ET.
+
+https://www.dropbox.com/sh/xhrrn63ya7yew31/AADl5YmN3muv0GUhAfZ_VJi6a?dl=0
