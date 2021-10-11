@@ -2,9 +2,9 @@
 This repository contains the implementation and dataset of our paper *ASSET: A Sem-supervised Approach for Entity Typing in Knowledge Graphs*. 
 
 <p align="center">
-<img src="data/teacher-student.png" width="400" height="400">
+<img src="data/teacher-student.png" width="450" height="450">
 </p>
-<p align="center">Fig. 1 Pipleine of our Semantification Process</p>
+<p align="center">Fig. 1 Architecure of Teacher-Student Models</p>
 
 ## Summary
 - In this work, we propose a novel approach for KG entity typing in knowledge graphs that leverages semi-supervised learning from massive unlabeled data.
