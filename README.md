@@ -3,8 +3,8 @@ This repository contains the implementation and dataset of our paper *ASSET: A S
 
 ## Summary
 - In this work, we propose a novel approach for KG entity typing in knowledge graphs that leverages semi-supervised learning from massive unlabeled data.
-- Our approach follows a teacher-student learning paradigm that allows combining a small amount of labeled data with a large amount of unlabeled data to boost performance: The teacher model annotates the unlabeled data with pseudo labels; then the student is trained on the pseudo-labeled data and a small amount of high-quality labeled data. 
-- We conduct several experiments on two benchmarking datasets (FB15k-ET and YAGO43k-ET). 
+- Our approach follows a teacher-student learning paradigm that allows combining a small amount of labeled data with a large amount of unlabeled data to boost the performance of downstream tasks: the teacher model annotates the unlabeled data with pseudo labels; then the student is trained on the pseudo-labeled data and a small amount of high-quality labeled data. 
+- We conduct several experiments on two benchmarking datasets (FB15k-ET and YAGO43k-ET), our results demonstrate that our approach outperforms state-of-the-art baselines in entity-typing task. 
 
 ## Requirements
 ```
@@ -28,14 +28,13 @@ You can install all requirements via ```pip install -r requirements.txt```
 
 * Furthermore, we provide the preprocessed files used in our experiments in the ```data/preprocessed files``` folder that can be used directly to evaluate the baselines and our approach.
 
-## How to run
-- We provide a jupyter notebook with a description for each dataset in the ```notebook``` folder. First, users should install the required libraries,  then locate the data files (e.g., the file of pre-trained embedding models and groud-truth labels.)
-- We provide also the source code in Python in the folder ```src```. Users can download the code and use it in their favorite IDE.
-- For fast running and reproduce our results, we provide some scripts that users can run in the command-line to reproduce our results easily.
-```
-python scripts/FB15K_ET.py # for evaluation on FB15K dataset
-python scripts/YAGO_ET.py # for evaluation on YAG43K dataset
-```
+## How to run:
+
+- We provide the source code in Python in the folder ```src```. Users can download the code and use it in their favorite IDE, configure it with different models and datasets.
+
+- As examples, we provide two jupyter noteboos with a description for FB15k-ET and YAGP43k-ET in the ```notebook``` folder. First, users should install the required libraries,  then locate the data files (e.g., the file of pre-trained embedding models and groud-truth labels.)
+
+
 ## Hyper-parameters
 The following are our optimal values for the hyper-parameters used in the experiments: 
 
@@ -44,7 +43,7 @@ epochs = 100            # Maximum number of epochs
 patience = 3            # After how many iterations to stop the training
 batch_size = 128        # How many sequences in each batch during training
 lr = 0.001             # Learning rate of Adam optimizer
-Dropout= 0.25          # Dropout rate in the Deep Neural Model 
+Dropout= 0.20          # Dropout rate in the Deep Neural Model 
 ```
 
 ## Contact
