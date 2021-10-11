@@ -1,6 +1,11 @@
 ## ASSET: A Semi-supervised Approach for Entity Typing in Knowledge Graphs
 This repository contains the implementation and dataset of our paper *ASSET: A Sem-supervised Approach for Entity Typing in Knowledge Graphs*. 
 
+<p align="center">
+<img src="data/teacher-student.png" width="400" height="400">
+</p>
+<p align="center">Fig. 1 Pipleine of our Semantification Process</p>
+
 ## Summary
 - In this work, we propose a novel approach for KG entity typing in knowledge graphs that leverages semi-supervised learning from massive unlabeled data.
 - Our approach follows a teacher-student learning paradigm that allows combining a small amount of labeled data with a large amount of unlabeled data to boost the performance of downstream tasks: the teacher model annotates the unlabeled data with pseudo labels; then the student is trained on the pseudo-labeled data and a small amount of high-quality labeled data. 
