@@ -4,7 +4,7 @@ This repository contains the implementation and dataset of our paper *ASSET: A S
 <p align="center">
 <img src="data/teacher-student.png" width="450" height="450">
 </p>
-<p align="center">Fig. 1 Architecure of Teacher-Student Models</p>
+<p align="center">Fig. 1 Architecure of Teacher-Student Model</p>
 
 ## Summary
 - In this work, we propose a novel approach for KG entity typing in knowledge graphs that leverages semi-supervised learning from massive unlabeled data.
@@ -31,7 +31,7 @@ You can install all requirements via ```pip install -r requirements.txt```
 
 * If you want to experiment with another knowledge graph embedding model. We recommend [Pykeen](https://pykeen.github.io/) or [Graphvite](https://graphvite.io/) for generating embeddings for the datasets. 
 
-* Furthermore, we provide the preprocessed files used in our experiments in the ```data/preprocessed files``` folder that can be used directly to evaluate the baselines and our approach.
+* Furthermore, we provide the preprocessed files used in our experiments in the ```data/Preprocessed Files``` folder that can be used directly to evaluate the baselines and our approach. Due to the size limit on Github, we provide the links for downloading large preprocessed files (our pre-trained embeddings) in ```../Preprocessed Files/data_links.txt```.
 
 ## How to run:
 
