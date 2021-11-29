@@ -55,4 +55,24 @@ Dropout= 0.20          # Dropout rate in the Deep Neural Model
 If you have any feedback or suggestions, feel free to send me an email to hamada.zahera@upb.de 
 
 ## Cite
-TBD
+```
+@inproceedings{DBLP:conf/kcap/ZaheraHN21,
+  author    = {Hamada M. Zahera and
+               Stefan Heindorf and
+               Axel{-}Cyrille Ngonga Ngomo},
+  editor    = {Anna Lisa Gentile and
+               Rafael Gon{\c{c}}alves},
+  title     = {{ASSET:} {A} Semi-supervised Approach for Entity Typing in Knowledge
+               Graphs},
+  booktitle = {{K-CAP} '21: Knowledge Capture Conference, Virtual Event, USA, December
+               2-3, 2021},
+  pages     = {261--264},
+  publisher = {{ACM}},
+  year      = {2021},
+  url       = {https://doi.org/10.1145/3460210.3493563},
+  doi       = {10.1145/3460210.3493563},
+  timestamp = {Thu, 25 Nov 2021 10:29:00 +0100},
+  biburl    = {https://dblp.org/rec/conf/kcap/ZaheraHN21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
